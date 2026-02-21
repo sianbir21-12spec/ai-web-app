@@ -1,18 +1,12 @@
 body{
-font-family: Arial;
-text-align:center;
 background:#0f172a;
 color:white;
-padding-top:80px;
+font-family:Arial;
+text-align:center;
 }
 
-input{
-padding:10px;
-margin:5px;
-width:60px;
-}
-
-button{
-padding:10px 20px;
-cursor:pointer;
+canvas{
+background:#020617;
+margin-top:20px;
+border-radius:10px;
 }
