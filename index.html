@@ -2,24 +2,21 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Mini Neural Network</title>
+<title>Evolution AI Game</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1>🧠 Mini Neural Network Demo</h1>
+<h1>Evolution AI</h1>
+<canvas id="game"></canvas>
 
-<p>Enter 3 inputs (0 or 1)</p>
+<div>
+<button onclick="start()">Start Evolution</button>
+</div>
 
-<input id="i1" type="number" min="0" max="1" value="1">
-<input id="i2" type="number" min="0" max="1" value="0">
-<input id="i3" type="number" min="0" max="1" value="0">
+<p id="gen"></p>
 
-<button onclick="runAI()">Predict</button>
-
-<h2 id="result"></h2>
-
-<script src="app.js"></script>
-
+<script src="ai.js"></script>
 </body>
 </html>
